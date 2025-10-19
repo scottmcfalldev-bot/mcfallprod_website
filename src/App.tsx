@@ -145,23 +145,7 @@ function App() {
                 </div>
                 <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Bound By Art</h3>
                 <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Missi Blue</p>
-                 <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
-              <a
-                href="https://podcasts.apple.com/us/podcast/the-school-of-greatness/id596047499"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
-                  <img
-                    src={new URL('/images/School of Greatness.jpg', import.meta.url).href}
-                    alt="The School of Greatness"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The School of Greatness</h3>
-                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Lewis Howes</p>
-              </a>
-            </div>
+                 ``
               </a>
             </div>
           </div>
