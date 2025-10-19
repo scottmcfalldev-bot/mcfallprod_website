@@ -145,7 +145,7 @@ function App() {
                 </div>
                 <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Bound By Art</h3>
                 <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Missi Blue</p>
-                 ``
+                 
               </a>
             </div>
             
