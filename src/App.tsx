@@ -1,8 +1,5 @@
-import { Phone, Mail, CheckCircle, Calendar, Headphones, Share2, TrendingUp, Mic, Moon, Sun } from 'lucide-react';
-import { useState, useEffect, lazy, Suspense } from 'react';
-import { lazyLoad } from './utils/lazyLoad';
-import LoadingPlaceholder from './components/LoadingPlaceholder';
-import LazyImage from './components/LazyImage';
+import { Phone, Mail, Moon, Sun, CheckCircle, Calendar, Headphones, Share2, TrendingUp } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
