@@ -169,7 +169,7 @@ function App() {
 
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="https://podcasts.apple.com/us/podcast/the-surgeons-lounge/id1234567890"
+                href="https://podcasts.apple.com/us/podcast/breast-implants-explant-surgery-and-breast-implant/id1678143554"
                 target="_blank"
                 rel="noopener noreferrer"
               >
