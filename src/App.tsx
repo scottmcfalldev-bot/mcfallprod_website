@@ -184,6 +184,42 @@ function App() {
                 <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Robert Whitfield, MD</p>
               </a>
             </div>
+
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="https://podcasts.apple.com/us/podcast/hanu-health"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/Hanu_logo.jpeg', import.meta.url).href}
+                    alt="Hanu Health"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Hanu Health</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>Dr. Jay Wiles</p>
+              </a>
+            </div>
+
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="https://podcasts.apple.com/us/podcast/awot-radio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/AWOT_logo.jpg', import.meta.url).href}
+                    alt="AWOT Radio"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>AWOT Radio</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>103.3 FM</p>
+              </a>
+            </div>
           </div>
         </div>
       </section>
