@@ -4,9 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="McFall Podcast Productions - Professional podcast production services for top podcasts" />
     <title>McFall Podcast Productions Landing Page</title>
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/src/index.css" as="style" />
+    <link rel="preload" href="/src/main.tsx" as="script" />
+    
+    <!-- Font display optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    
+    <!-- Cache control -->
+    <meta http-equiv="Cache-Control" content="max-age=31536000" />
   </head>
   <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

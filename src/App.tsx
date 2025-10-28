@@ -1,4 +1,4 @@
-import { Phone, Mail, CheckCircle, Calendar, Headphones, Share2, TrendingUp, Mic, Moon, Sun } from 'lucide-react';
+import { Phone, Mail, Moon, Sun, CheckCircle, Calendar, Headphones, Share2, TrendingUp } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -145,7 +145,79 @@ function App() {
                 </div>
                 <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Bound By Art</h3>
                 <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Missi Blue</p>
-                 ``
+                 
+              </a>
+            </div>
+            
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="https://podcasts.apple.com/us/podcast/the-bad-mom-podcast-parenting-the-anxious-generation/id1840678865"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/Bad Mom Podcast.png', import.meta.url).href}
+                    alt="The Bad Mom Podcast"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The Bad Mom Podcast</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Vivian Glyck</p>
+              </a>
+            </div>
+
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="https://podcasts.apple.com/us/podcast/breast-implants-explant-surgery-and-breast-implant/id1678143554"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/TSL.png', import.meta.url).href}
+                    alt="The Surgeon's Lounge"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The Surgeon's Lounge</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Robert Whitfield, MD</p>
+              </a>
+            </div>
+
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="https://podcasts.apple.com/us/podcast/hanu-health"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/Hanu_logo.jpeg', import.meta.url).href}
+                    alt="Hanu Health"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Hanu Health</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>Dr. Jay Wiles</p>
+              </a>
+            </div>
+
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="https://podcasts.apple.com/us/podcast/awot-radio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/AWOT_logo.jpg', import.meta.url).href}
+                    alt="AWOT Radio"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>AWOT Radio</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>103.3 FM</p>
               </a>
             </div>
           </div>
