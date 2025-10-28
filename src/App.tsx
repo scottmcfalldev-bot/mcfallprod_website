@@ -187,7 +187,7 @@ function App() {
 
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="https://podcasts.apple.com/us/podcast/hanu-health"
+                href="https://www.youtube.com/channel/UCsTH_hVrWE84q__HKqDIQZg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -205,7 +205,7 @@ function App() {
 
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="https://podcasts.apple.com/us/podcast/awot-radio"
+                href="https://podcasts.apple.com/us/podcast/a-waste-of-time-radio/id1362171849"
                 target="_blank"
                 rel="noopener noreferrer"
               >
