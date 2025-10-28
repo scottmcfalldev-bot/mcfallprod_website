@@ -199,7 +199,7 @@ function App() {
                   />
                 </div>
                 <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Hanu Health</h3>
-                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>Dr. Jay Wiles</p>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Dr. Jay Wiles</p>
               </a>
             </div>
 
