@@ -102,7 +102,7 @@ function App() {
               >
                 <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/Well Beyond 40 Podcast.jpeg', import.meta.url).href}
+                    src={new URL('/images/Well Beyond 40 Podcast.jpg', import.meta.url).href}
                     alt="Well Beyond 40"
                     className="w-full h-full object-cover"
                   />
@@ -157,7 +157,7 @@ function App() {
               >
                 <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/Bad Mom Podcast.png', import.meta.url).href}
+                    src={new URL('/images/Bad Mom Podcast.jpg', import.meta.url).href}
                     alt="The Bad Mom Podcast"
                     className="w-full h-full object-cover"
                   />
@@ -175,7 +175,7 @@ function App() {
               >
                 <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/TSL.png', import.meta.url).href}
+                    src={new URL('/images/TSL.jpg', import.meta.url).href}
                     alt="The Surgeon's Lounge"
                     className="w-full h-full object-cover"
                   />
@@ -193,7 +193,7 @@ function App() {
               >
                 <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/Hanu_logo.jpeg', import.meta.url).href}
+                    src={new URL('/images/Hanu_logo.jpg', import.meta.url).href}
                     alt="Hanu Health"
                     className="w-full h-full object-cover"
                   />
@@ -577,7 +577,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 md:mb-0 flex-shrink-0">
                   <div className="w-56 h-56 rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
                     <img
-                      src={new URL('/images/lauren.png', import.meta.url).href}
+                      src={new URL('/images/lauren.jpg', import.meta.url).href}
                       alt="Lauren McFall"
                       className="w-full h-full object-cover object-[50%_10%] hover:scale-110 transition-transform duration-500"
                     />
@@ -605,7 +605,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 md:mb-0 flex-shrink-0">
                   <div className="w-56 h-56 rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
                     <img
-                src={new URL('/images/Scott headshot.png', import.meta.url).href}
+                src={new URL('/images/Scott headshot.jpg', import.meta.url).href}
                         alt="Scott McFall"
                         className="w-full h-full object-cover object-[50%_30%] hover:scale-105 transition-transform duration-300"
                      />
@@ -634,7 +634,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 md:mb-0 flex-shrink-0">
                   <div className="w-56 h-56 rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
                     <img
-                      src={new URL('/images/Wayne headshot.png', import.meta.url).href}
+                      src={new URL('/images/Wayne headshot.jpg', import.meta.url).href}
                       alt="Wayne Redden"
                       className="w-full h-full object-cover object-[50%_10%] transform [scale:1.10] hover:scale-105 transition-transform duration-300"
                     />
