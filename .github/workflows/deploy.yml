@@ -34,4 +34,4 @@ jobs:
           publish_dir: ./dist
           # Use a Personal Access Token stored in repository secrets named GH_PAGES_PAT
           # Create a PAT with 'repo' (or 'public_repo') scope and add it to Settings -> Secrets -> Actions
-          github_token: ${{ secrets.GH_PAGES_PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
