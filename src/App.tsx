@@ -94,6 +94,44 @@ function App() {
               </a>
             </div>
 
+            {/* The Daily Motivation (TDM) - inserted after School of Greatness */}
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/The Daily Motivation.svg', import.meta.url).href}
+                    alt="The Daily Motivation"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The Daily Motivation</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Lewis Howes</p>
+              </a>
+            </div>
+
+            {/* Decoded - moved before JJ (Well Beyond 40) */}
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/Decoded.svg', import.meta.url).href}
+                    alt="Decoded"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Decoded</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Elisabeth McKay</p>
+              </a>
+            </div>
+
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
                 href="https://podcasts.apple.com/us/podcast/well-beyond-40/id911502027"
@@ -169,19 +207,19 @@ function App() {
 
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="https://podcasts.apple.com/us/podcast/breast-implants-explant-surgery-and-breast-implant/id1678143554"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/TSL.jpg', import.meta.url).href}
-                    alt="The Surgeon's Lounge"
+                    src={new URL('/images/Dr Robert Whitfield Show.svg', import.meta.url).href}
+                    alt="The Dr. Robert Whitfield Show"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The Surgeon's Lounge</h3>
-                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Robert Whitfield, MD</p>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The Dr. Robert Whitfield Show</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Dr. Robert Whitfield</p>
               </a>
             </div>
 
