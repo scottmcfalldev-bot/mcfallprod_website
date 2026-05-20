@@ -97,7 +97,7 @@ function App() {
             {/* The Daily Motivation (TDM) - inserted after School of Greatness */}
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="#"
+                href="https://podcasts.apple.com/us/podcast/the-daily-motivation/id1634106069"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -116,7 +116,7 @@ function App() {
             {/* Decoded - moved before JJ (Well Beyond 40) */}
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="#"
+                href="https://podcasts.apple.com/us/podcast/decoded-unlock-the-secrets-of-human-behavior/id1795759900"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -207,7 +207,7 @@ function App() {
 
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="#"
+                href="https://podcasts.apple.com/us/podcast/the-dr-robert-whitfield-show/id1678143554"
                 target="_blank"
                 rel="noopener noreferrer"
               >
