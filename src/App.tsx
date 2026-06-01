@@ -113,25 +113,6 @@ function App() {
               </a>
             </div>
 
-            {/* Decoded - moved before JJ (Well Beyond 40) */}
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
-              <a
-                href="https://podcasts.apple.com/us/podcast/decoded-unlock-the-secrets-of-human-behavior/id1795759900"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
-                  <img
-                    src={new URL('/images/decoded.jpg', import.meta.url).href}
-                    alt="Decoded"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Decoded</h3>
-                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Elisabeth McKay</p>
-              </a>
-            </div>
-
             <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
                 href="https://podcasts.apple.com/us/podcast/well-beyond-40/id911502027"
