@@ -76,13 +76,13 @@ function App() {
           <h2 className={`text-4xl font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-4 text-center animate-fadeInUp`}>Trusted by Top Podcasts</h2>
           <p className={`text-xl ${darkMode ? 'text-gray-300' : 'text-gray-600'} text-center mb-12 animate-fadeInUp delay-100`}>We've helped leading voices build, grow, and scale their shows</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
                 href="https://podcasts.apple.com/us/podcast/the-school-of-greatness/id596047499"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
                     src={new URL('/images/School of Greatness.jpg', import.meta.url).href}
                     alt="The School of Greatness"
@@ -94,15 +94,34 @@ function App() {
               </a>
             </div>
 
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+            {/* The Daily Motivation (TDM) - inserted after School of Greatness */}
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+              <a
+                href="https://podcasts.apple.com/us/podcast/the-daily-motivation/id1634106069"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                  <img
+                    src={new URL('/images/tdm.jpg', import.meta.url).href}
+                    alt="The Daily Motivation"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The Daily Motivation</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Lewis Howes</p>
+              </a>
+            </div>
+
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
                 href="https://podcasts.apple.com/us/podcast/well-beyond-40/id911502027"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/Well Beyond 40 Podcast.jpeg', import.meta.url).href}
+                    src={new URL('/images/Well Beyond 40 Podcast.jpg', import.meta.url).href}
                     alt="Well Beyond 40"
                     className="w-full h-full object-cover"
                   />
@@ -112,13 +131,13 @@ function App() {
               </a>
             </div>
 
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
                 href="https://podcasts.apple.com/us/podcast/the-big-shift-the-business-of-making-a-difference/id977754152"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
                     src={new URL('/images/The Big Shift.jpg', import.meta.url).href}
                     alt="The Big Shift"
@@ -130,13 +149,13 @@ function App() {
               </a>
             </div>
 
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
                 href="https://podcasts.apple.com/us/podcast/bound-by-art-a-tattoo-artists-survival-guide/id1777930586"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
                     src={new URL('/images/Bound By Art.jpg', import.meta.url).href}
                     alt="Bound By Art"
@@ -149,15 +168,15 @@ function App() {
               </a>
             </div>
             
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
                 href="https://podcasts.apple.com/us/podcast/the-bad-mom-podcast-parenting-the-anxious-generation/id1840678865"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/Bad Mom Podcast.png', import.meta.url).href}
+                    src={new URL('/images/Bad Mom Podcast.jpg', import.meta.url).href}
                     alt="The Bad Mom Podcast"
                     className="w-full h-full object-cover"
                   />
@@ -167,49 +186,49 @@ function App() {
               </a>
             </div>
 
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="https://podcasts.apple.com/us/podcast/breast-implants-explant-surgery-and-breast-implant/id1678143554"
+                href="https://podcasts.apple.com/us/podcast/the-dr-robert-whitfield-show/id1678143554"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/TSL.png', import.meta.url).href}
-                    alt="The Surgeon's Lounge"
+                    src={new URL('/images/robwhitfield.jpg', import.meta.url).href}
+                    alt="The Dr. Robert Whitfield Show"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The Surgeon's Lounge</h3>
-                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Robert Whitfield, MD</p>
+                <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>The Dr. Robert Whitfield Show</h3>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Dr. Robert Whitfield</p>
               </a>
             </div>
 
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="https://podcasts.apple.com/us/podcast/hanu-health"
+                href="https://www.youtube.com/channel/UCsTH_hVrWE84q__HKqDIQZg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={new URL('/images/Hanu_logo.jpeg', import.meta.url).href}
+                    src={new URL('/images/Hanu_logo.jpg', import.meta.url).href}
                     alt="Hanu Health"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <h3 className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-[#2a3a4a]'} mb-1 group-hover:text-[#fa812f] transition-colors duration-300`}>Hanu Health</h3>
-                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>Dr. Jay Wiles</p>
+                <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} text-sm`}>with Dr. Jay Wiles</p>
               </a>
             </div>
 
-            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
+            <div className={`${darkMode ? 'bg-[#2a2a2a]' : 'bg-white'} p-1 w-full max-w-[14rem] mx-auto rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2 text-center group animate-fadeInUp`}>
               <a
-                href="https://podcasts.apple.com/us/podcast/awot-radio"
+                href="https://podcasts.apple.com/us/podcast/a-waste-of-time-radio/id1362171849"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="w-32 h-32 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
+                <div className="w-40 h-40 mx-auto mb-4 rounded-lg overflow-hidden shadow-md transition-transform duration-300 group-hover:scale-105">
                   <img
                     src={new URL('/images/AWOT_logo.jpg', import.meta.url).href}
                     alt="AWOT Radio"
@@ -577,7 +596,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 md:mb-0 flex-shrink-0">
                   <div className="w-56 h-56 rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
                     <img
-                      src={new URL('/images/lauren.png', import.meta.url).href}
+                      src={new URL('/images/lauren.jpg', import.meta.url).href}
                       alt="Lauren McFall"
                       className="w-full h-full object-cover object-[50%_10%] hover:scale-110 transition-transform duration-500"
                     />
@@ -605,7 +624,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 md:mb-0 flex-shrink-0">
                   <div className="w-56 h-56 rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
                     <img
-                src={new URL('/images/Scott headshot.png', import.meta.url).href}
+                src={new URL('/images/Scott headshot.jpg', import.meta.url).href}
                         alt="Scott McFall"
                         className="w-full h-full object-cover object-[50%_30%] hover:scale-105 transition-transform duration-300"
                      />
@@ -634,7 +653,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 md:mb-0 flex-shrink-0">
                   <div className="w-56 h-56 rounded-full overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
                     <img
-                      src={new URL('/images/Wayne headshot.png', import.meta.url).href}
+                      src={new URL('/images/Wayne headshot.jpg', import.meta.url).href}
                       alt="Wayne Redden"
                       className="w-full h-full object-cover object-[50%_10%] transform [scale:1.10] hover:scale-105 transition-transform duration-300"
                     />
